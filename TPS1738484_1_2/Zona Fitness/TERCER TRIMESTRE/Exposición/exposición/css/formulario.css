@@ -1,0 +1,26 @@
+body{
+	background-image: url("../img/lop.jpg");
+	background-repeat: no-repeat;
+	display: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+
+	
+}
+
+
+form{
+	width:450px;
+	margin: auto; overflow: hidden;
+	background: rgba(0,0,0,0.4); 
+}
+
+h1{
+	color: #fff;
+}
+
+li{
+	color: #fff;
+}
+

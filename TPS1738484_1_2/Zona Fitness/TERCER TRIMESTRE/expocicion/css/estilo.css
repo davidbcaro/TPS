@@ -1,0 +1,180 @@
+body{
+	background-image: url("../img/PK.jpg");
+	background-repeat: no-repeat;
+	display: fixed;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+
+	
+}
+
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+	font: #000;
+	background: none;	
+
+	
+	
+}
+
+header{
+	width:900px;
+	height: 100px
+	border:0px solid #26AF85; 
+}
+
+#logo{
+	width:200px;
+	height: 100px;
+	border: 8px solid #26AF85;
+	float: left;
+}
+.titulo{
+
+
+
+}
+
+
+
+.menu{
+	width:600PX;
+	height: 40px;
+	border: 1px solid #ccc;
+	float: right;
+	margin-top: 40px;
+	background: #26AF85;
+}
+
+.menu ul{}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration-color: #26AF85;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color:#26AF85;
+	transition: background 1s, color 1s;
+}
+
+#slide{
+	margin-top:60px;
+	width:1000px;
+	height:250px;
+}
+
+#categorias{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+}
+
+.uno{
+
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #26AF85;
+	float: left;
+	padding: 5px;
+	text-align: center;	
+	color: #041B38;
+}  
+
+h2{
+	color: #fff;
+}
+
+p{
+	color: #fff;
+}
+
+.parrafo{
+	color: #000;
+	text-align: justify;
+} 
+
+
+.dos{
+	width: 280px;
+	height:600px;
+	border: 1px solid #26AF85;
+	float: left;
+	padding: 5px;
+	text-align:center;
+	color: #041B38;
+}
+
+.tres{
+	width: 301px;
+	height:600px;
+	border: 1px solid #26AF85;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color: #041B38;
+}
+
+.leer-mas{
+	text-decoration: none;
+	border: 1px solid #26AF85;
+	padding: 10px 20px 10px 20px;
+	margin: 10px
+}
+
+.leer-mas:hover{
+	background: #26AF85;
+	color: #000;
+	transition: background 1s, color 1s;
+}
+#info{
+	width: 900px;
+	height:auto;overflow: hidden;
+	border: 0px solid #26AF85;
+	margin-top: 15px;
+	color: #041B38;
+}
+
+#izq{
+	width: 550px;
+	height: auto; overflow: hidden;
+	border: 1px solid #26AF85;
+	float: left;	
+	padding: 5px;
+
+}
+
+.img{
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+ 
+#der{
+	width:335px; 
+	height:350px;
+	border: 1px solid #000;
+	float: left;
+}
+
+footer{
+	width: 900px;
+	height:auto; overflow: hidden;
+	text-align: center;
+}
+
+#footer p{
+	width: 500px;
+
+}
+
