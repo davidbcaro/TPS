@@ -1,0 +1,117 @@
+/*este css corresponde a acceder.html*/
+body {
+  background-color: #737473;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+ #uno{
+
+ 	text-align: center;
+ 	display: block;
+ 	position: relative;
+ }
+ #uno{
+ 	padding: 20px;
+ 	font-family:"Kristen ITC";
+ 	font-size:40px;
+ 	font-weight: bold;
+ 	letter-spacing: 5px;
+
+ }
+
+img{
+	padding: 50px;
+	float: left;
+	width: 250px;
+	margin: auto;
+	display: block;
+	position: relative;
+	border-radius: 15px;
+
+}
+
+
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	color:white;
+	display: block;
+	padding: 25px 50px;
+	text-decoration: none;
+}
+ul{
+	background-color:#444444;
+}
+ul li a:hover{
+	background-color:#71A094;
+}
+.item-r{
+	float: right;
+}
+
+#formu{
+	color: #000000;
+	text-align: center;
+	margin-bottom: 20px;
+	color: rgba(0,0,0,0.5);
+	padding: 20px;
+ 	font-family:"Kristen ITC";
+ 	font-size:30px;
+ 	font-weight: bold;
+ 	letter-spacing: 5px;
+
+}
+
+input{
+	display: block;
+	padding: 10px;
+	width: 50%;
+	margin: 10px;
+	font-size: 20px;
+
+
+
+
+}
+
+form{
+	margin: auto;
+	width: 50%;
+	max-width: 450px;
+	background:#444444;
+	padding: 30px;
+	border: 15px solid rgba(0,0,0,0.2);
+
+}
+ input[type="submit"]{
+ 	background:linear-gradient(#3ED3AC,#2A9579);
+ 	border: 0;
+ 	color: #204139;
+ 	opacity: 0.8;
+ 	cursor: pointer;
+ 	border-radius: 20px;
+ 	margin-bottom:0;
+ }
+select{
+	max-width: 350px;
+	float: right;
+		background:linear-gradient(#3ED3AC,#2A9579);
+ 	border: 0;
+ 	color: #204139;
+ 	opacity: 0.8;
+ 	cursor: pointer;
+ 	border-radius: 20px;
+ 	margin-bottom:0;
+}

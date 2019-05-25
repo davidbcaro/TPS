@@ -1,0 +1,500 @@
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: gray;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: green;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #ff7f61;
+	border-radius: 50px;
+}
+
+
+* {
+	margin:0;
+	padding:0;
+	
+}
+ 
+body {
+
+background-image: url("../imagenes/imagen8.jpg");
+z-index: 4;
+  background-size: cover;
+
+ }
+header nav {
+	width:96%;
+	
+	margin:20px auto;
+	background:rgba(0,0,0, 0.4);
+	position: fixed;
+}
+.modalDialog{
+		display: inline-block;}
+
+.menu_bar {
+	display:none;
+}
+#logoi{
+	width: 100%;
+	height: 100%;
+
+}
+ #contlogo{
+ 	width: 13%;
+ 	height: 150px;
+ 	position: relative;
+    top: 110px;
+    left: 20px;
+ }
+ 
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+ 
+header nav ul li {
+	float:left;
+}
+ 
+header nav ul li a {
+	color:#000;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+
+}
+ 
+header nav ul li span {
+	margin-right:10px;
+}
+ 
+header nav ul li a:hover {
+	background:rgba(0,0,0, 0.5);
+	color: #ff7f61;
+}
+ 
+section {
+	padding:20px;
+}
+ 
+			@media screen and (max-width:600px ) {
+											header nav {
+												width:80%;
+												height:100%;
+												left:-100%;
+												margin:0;
+												
+											}
+											header nav ul li {
+												display:block;
+												float:none;
+												border-bottom:5px solid rgba(255,225,225 ,0.3);
+											
+
+											}
+										.menu_bar {
+												display:block;
+												width:100%;
+												background:#fff;
+
+												
+											}
+										.menu_bar .bt-menu {
+												display:block;
+												padding:20px 50px;
+												background:rgba(255,0,0, 0.7);
+												color:#fff;
+												text-decoration:none;
+												font-weight: bold;
+												font-size:25px;
+												-webkit-box-sizing:border-box;
+												-moz-box-sizing:border-box;
+												box-sizing:border-box;
+
+											}
+										.menu_bar span {
+												float:right;
+												font-size:40px;
+											}
+										#letrasmov{
+											    position: relative;
+												top: -30px;
+												right: 100px;
+												width: 65%;
+												float: right;
+												font-size: 55px;
+												font-family: algerian;
+												
+												height: 70px;
+
+										}
+
+										#letas{
+											position: relative;
+											z-index: 100;
+											position: fixed;
+										}
+}	
+
+/*-------------------------------------------------------------Ventana-------------------------------------------------------------------	*/
+
+#openmodal{
+	z-index: 3;
+}
+
+
+section.modalDialog{
+	background-color: rgba(0,0,0,.5);
+	bottom: 0;
+	top:0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	position: fixed;
+	
+	-moz-transition: opacity 3s;
+	-webkit-transition: opacity 2s;
+	-o-transition: opacity 2s;
+	-ms-transition: opacity 1s;
+
+}
+
+section.modalDialog:target{
+	opacity: 1;
+}
+
+#ventana.close{
+	background-color: #414141;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 22px;
+	position: absolute;
+	right: 5px;
+	top:5px;
+	text-align: center;
+	text-decoration: none;
+	width: 28px;
+
+
+	
+
+}
+
+#ventana.close{
+	background-color: #000;
+		z-index: 0;
+
+}
+
+section.modal{
+	background: #fff;
+	box-shadow: 5px 0px 10px #000;
+	border-radius: 5px;
+	color: #fff;
+	margin: 10% auto;
+	padding: 20px;
+	position: relative;
+	width: 450px;
+	
+}
+
+h2{
+	color: red;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+p{
+	color: red;
+	font-size: 1.2em;
+}
+
+
+table{
+
+  height: 100%;
+  width: 100%;
+
+  left: 650px;
+  top: 100px;
+  font-size: 25px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  color: #C3C3C3;
+}
+
+
+
+/*-------------------------------------------------------------Ventana-------------------------------------------------------------------	*/
+
+
+
+
+.section2{ 
+  position: relative;
+  top: -30px;
+  background:rgba(255, 127, 97, 0.5);
+  border: 1px solid rgba(255, 127, 97, 1);
+  width: 40%;
+  right: 10px;
+  border-radius: 20px;
+  z-index: 3;
+  float: right;
+}
+.parrafo{
+text-align: justify;
+  color: rgba(37, 38, 40, 0.9);
+  position: relative;
+  bottom: 28px
+}
+#titulo{
+  text-align: center;
+
+  color: black;		
+  position: relative;
+  
+  
+}
+
+#boton13{
+  width: 35%;
+  height: 25px;
+  background:rgba(255,0,0, 0.7);
+  animation: floating 3s ease infinite alternate;
+  border-radius: 5px;
+  display:block;
+  margin:auto;
+}
+#boton13:hover{
+  background: #000;
+  color: rgba(255,0,0, 0.7);
+}
+
+/*#boton2{
+  width: 200px;
+  height: 30px;
+  
+  top: 30px;
+  left: 30px;
+  background: #B6B6B6;
+  border-radius: 30px;
+ 
+}
+#boton2:hover{
+  background: #000;
+  color: #fff;
+}
+*/
+
+
+
+#letas{
+	position: relative;
+	z-index: 4;
+	position: fixed;
+}
+@keyframes fadeIn{
+		from{
+				opacity: 0;
+				transform: translateY(-50px)
+		}
+
+		to{
+				opacity: 1;
+				transform: translateY(0px);
+		}
+}
+
+@keyframes fadeIn2{
+		from{
+				opacity: 0;
+		}
+
+		to{
+				opacity: 1;
+		}
+}
+
+@keyframes enterleft{
+		from{
+
+				transform: translateX(10px)
+		}
+
+		to{
+
+				transform: translateY(0px);
+		}
+}
+
+@keyframes floating{
+		from{
+
+				transform: translateY(-8px)
+		}
+
+		to{
+				transform: translateY(0px);
+		}
+	
+}		
+
+
+
+
+.LetraFNAV{
+		display: block;
+		animation: enterleft 1s ease infinite alternate;
+		text-align: center;
+		width: 80%;
+		float: right;
+		font-size: 80px;
+		font-family: algerian;
+		position: relative;
+		right: 30px;
+		height: 170px;
+		bottom:  50px;
+		color: #ff7f61;
+	
+
+		
+
+}
+#tituloss{
+  color:rgba(255,0,0, 0.7);
+  top: 30px;
+  height: 170px;
+
+  
+}
+.LetrV{
+	display: block;
+		animation: enterleft .6s ease infinite alternate;
+		text-align: left;
+		position: relative;
+		bottom: 20px;
+		width: 40%;
+
+}
+
+
+#finf{   
+ overflow:hidden;
+ list-style:none;
+ background-color: rgba(255,0,0, 0.5);
+ text-align: center;
+}
+#cont #quince{
+	text-decoration: none;
+	color:#000;
+}
+footer{
+	top: 50px;
+	position: relative;
+    width: 100%;
+    height: 50PX;	
+}
+
+footer #finf ul #cont{
+	color:#000;
+	padding:0px 20px;
+	display: inline-block;
+	text-decoration:none;
+
+
+}
+#cont #quince:hover{
+ text-decoration: underline;
+}
+
+#doce{
+	text-decoration: none;
+	color: black;	
+}
+#doce:hover{
+	text-decoration:underline;
+	color:rgba(255,0,0, 0.7);
+}
+
+ .parrafoses{
+ 	text-align: justify;
+ 	position: relative;
+ 	bottom: 30px;
+ 	color: black;	 	
+ 	}
+ 	.parrafosis{
+ 		color: black;
+ 		text-align: justify;
+ 	}
+ 	#users{
+ 		width: 45%;
+		position: relative;
+		bottom: 25px;
+		height: 25px;
+		border-radius: 5px;
+		display:block;
+    margin:auto;
+ 	}
+ 	#passe{
+ 	width: 45%;
+		position: relative;
+		bottom: 25px;
+		height: 25px;
+		border-radius: 5px;
+		display:block;
+    margin:auto;
+
+ 	}
+
+#registro{
+	border: 2px solid green;
+	width:55%;
+	display:block;
+    margin:auto;
+    display: none;
+}
+
+
+
+
+
+
+#registrodiv{
+	border: 2px solid purple;
+}
+#holas{
+	border: 1px solid black;
+	  background:rgba(255, 127, 97, 0.7);
+	    border: 1px solid rgba(255, 127, 97, 1);
+	    width: 80%;
+	    margin-right: auto;
+	    margin-left: auto;
+	text-align: center;
+
+}
+#xhao{
+	width: 99%;
+	height: 70px;
+margin-right: auto;
+	    margin-left: auto;
+	
+
+
+}
+
+
+
+
+

@@ -1,0 +1,124 @@
+body{
+  background: #737473;
+}
+
+/*barra de navegacion del instructor*/
+nav ul.navegacion_instructor{
+  border: 8px;
+  padding: 20px;
+  display: block;
+  width: auto;
+  background: #444444;
+}
+
+nav ul li{
+  border: 0px;
+  padding: 0px;
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a{
+  display: block;
+  padding: 8px 115px;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover{
+  background: #71A094 ;
+}
+
+/*informacion general*/
+section h1{
+  border: 0px;
+  padding: 0px;
+  position: relative;
+  left: 50px;
+  top: 30px;
+  color: #151515;
+  font-size: 40px;
+}
+
+section ul.informacion_instructor{
+  border: 0px solid blue;
+  padding: 0px;
+  position: relative;
+  height: 650px;
+  top: 20px;
+}
+
+section ul li.s1{
+  border: 0px;
+  padding: 0px;
+  position: relative;
+  left: 85px;
+  top: 50px;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 26px;
+  font-style: italic;
+}
+
+section ul li.s2{
+  border: 0px;
+  padding: 0px;
+  position: relative;
+  left: 85px;
+  top: 90px;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 26px;
+  font-style: italic;
+}
+section ul li.s3{
+  border: 0px;
+  padding: 0px;
+  position: relative;
+  left: 85px;
+  top: 130px;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 26px;
+  font-style: italic;
+}
+section ul li.s4{
+  border: 0px;
+  padding: 0px;
+  position: relative;
+  left: 85px;
+  top: 170px;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 26px;
+  font-style: italic;
+}
+section ul li.s5{
+  border: 0px;
+  padding: 0px;
+  position: relative;
+  left: 85px;
+  top: 210px;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 26px;
+  font-style: italic;
+}
+
+section ul li.s6{
+  border: 0px;
+  padding: 0px;
+  position: relative;
+  left: 85px;
+  top: 250px;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  font-size: 26px;
+  font-style: italic;
+}

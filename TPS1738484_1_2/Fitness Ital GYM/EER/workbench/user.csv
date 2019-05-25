@@ -1,0 +1,7 @@
+idUsuario;Primer_Nombre;Segundo_Nombre;Primer_Apellido;Segundo_Apellido;Edad;numero_documento;Telefono;Correo;Contraseña;rol_idRol;cronograma_idCronograma;identificacion_idIdentificacion;medida_idMedida
+1;raul;bernardo;sanchez ;guevara;22;2552818;3213058282;raul@hotmail.com;raul123;11;25;852;41
+2;alejandra;nicol;perez;romero;15;2195239613;3203561058;alejandra@hotmail.com;aleja456;13;17;746;42
+3;camila;maria;quintero;dominguez ;35;852852;3058512545;camila@hotmail.com;cami698;13;32;369;43
+4;paola;andrea;pereira;merlano;40;52858236;3005434625;paola@hotmail.com;pao271;12;48;1476;44
+5;tomas;alejandro;rodriguez;vives;16;8512845296;3208557474;tomas@hotmail.com;tom852;12;17;746;45
+6;oscar;eduardo;martinez;fonseca;28;47554654;3518962211;oscar@hotmail.com;osqui5282;12;48;1476;44

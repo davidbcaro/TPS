@@ -1,0 +1,124 @@
+body{
+  background: #737473;
+}
+
+section.contenedor{
+  background: #fff;
+  height: 1050px;
+  width: 1550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Encabezado (Logo - Titulo - Acceder)*/
+header {
+  border: 2px;
+  padding: 12px;
+  color: #00BFFF;
+  background: #444444;
+}
+
+header h1{
+  font-family: inherit;
+  color: #fff;
+  position: relative;
+  left: 600px;
+  top: 6px;
+}
+
+header a.acceder{
+  border: 0px;
+  padding: 0px;
+  display: block;
+  position: relative;
+  top: -77px;
+  left: 1475px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* barra de navegacion*/
+nav ul.navegacion{
+  border: 4px;
+  padding: 4px;
+  display: inline-block;
+  background: #444444;
+}
+
+nav ul li{
+  border: 0px;
+  padding: 0px;
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a{
+  display: block;
+  padding: 5px 108.5px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  background-color: #71A094;
+}
+
+/*Seccion Principal*/
+section article.inicio{
+  border: 2px solid #151515;
+  padding: 15px;
+  width: 944px;
+  height: 350px;
+}
+
+section article.inicio2{
+  border: 2px solid #151515;
+  padding: 15px;
+  width: 944px;
+  height: 350px;
+}
+
+section h1{
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+section p{
+  color: #151515;
+  font-family: inherit;
+  font-size: 22px;
+}
+
+/*Seccion de Noticias*/
+section aside.noticias{
+  border: 2px solid #151515;
+  padding: 10px;
+  width: 560px;
+  height: 744px;
+  position: relative;
+  left: 976px;
+  top: -768px;
+}
+
+aside h1{
+  position: relative;
+  color: #f2f2f2;
+  left: 40px;
+}
+
+aside h1.noticia{
+  position: relative;
+  top: 20px;
+}
+
+aside h1.noticia2{
+  position: relative;
+  top: 20px;
+}
+
+aside p{
+  position: relative;
+  left: 50px
+}

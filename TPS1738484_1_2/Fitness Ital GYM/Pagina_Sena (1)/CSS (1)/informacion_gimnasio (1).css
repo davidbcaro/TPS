@@ -1,0 +1,87 @@
+body{
+  background: #737473;
+}
+
+/*Encabezado (Logo - Titulo - Acceder)*/
+header {
+  border: 2px;
+  padding: 12px;
+  color: #00BFFF;
+  background: #444444;
+}
+/*
+header img{
+  border: 0px;
+  padding: 0px;
+  height: 20px;
+}
+*/
+header h1{
+  font-family: inherit;
+  color: #fff;
+  position: relative;
+  left: 600px;
+  top: 6px;
+}
+
+header a.acceder{
+  border: 0px;
+  padding: 0px;
+  display: block;
+  position: relative;
+  top: -70px;
+  left: 1475px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* barra de navegacion*/
+nav ul.navegacion{
+  border: 4px;
+  padding: 4px;
+  display: block;
+  width: auto;
+  background: #444444;
+}
+
+nav ul li{
+  border: 0px;
+  padding: 0px;
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a{
+  display: block;
+  padding: 5px 100px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  background-color: #71A094;
+}
+
+/*Tabla de Horarios*/
+table.horario_gimnasio{
+  border: 2px;
+  padding: 2px;
+  border-collapse: collapse;
+}
+
+thead{
+  border: 1px solid black;
+}
+
+thead tr th{
+  border: 1px solid black;
+}
+
+tbody{
+  border: 1px solid black;
+}
+
+tbody tr td{
+  border: 1px solid black;
+}

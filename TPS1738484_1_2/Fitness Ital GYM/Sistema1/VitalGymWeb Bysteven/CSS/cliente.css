@@ -1,0 +1,94 @@
+body {
+  background-color: #737473;
+  padding: 0px;
+  margin: 0px;
+}
+  img{
+	padding: 46px 20px;
+	float: left;
+	width: 200px;
+	margin: auto;
+	display: block;
+	position: relative;
+	border-radius: 25px;
+
+}
+
+ul{
+	
+	margin: 0;
+	padding: 0;
+
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	color:white;
+	display: block;
+	padding: 25px 50px;
+	text-decoration: none;
+}
+ul{
+	background-color:#444444; 
+}
+ul li a:hover{
+	background-color:#71A094; 
+} 
+.item-r{
+	float: right;
+
+}
+
+#header{
+	margin: auto;
+	
+}
+ul,ol{
+	list-style: none;
+}
+ 
+ nav li a{
+	width: 14  0px;
+}
+ 
+
+ nav li ul {
+ 	display: none;
+ 	position: absolute;
+ 	min-width: 140px;
+ }
+ nav li:hover > ul {
+ 	display: block;
+ }
+
+
+.claise{
+	position: absolute;
+	background: #444444;
+	height: 90px;
+	width: 400px;
+	padding: 10px;
+	border: 5px solid rgba(0,0,0,0.2);
+	left: 500px;
+	top: 230px;
+}
+#pass{
+	width: 50%;
+	max-width: 450px;
+	height: 20px;
+	border-radius: 20px;
+
+}
+#formu{
+	position: relative;
+	right: -12	0px;
+	top: 0px;
+}
+#uno{
+	font-size: 40px;
+	font-family: "Kristen ITC";
+	position: relative;
+	top: 25px;
+}

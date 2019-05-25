@@ -1,0 +1,82 @@
+/*Este css corresponde a Index.html*/
+body {
+  background-color: #737473;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+ #uno{
+ 	
+ 	text-align: center;
+ 	display: block;
+ 	position: relative;
+ }
+ #uno{
+ 	padding: 20px;
+ 	font-family:"Kristen ITC";
+ 	font-size:70px;
+ 	font-weight: bold;
+ 	letter-spacing: 5px;
+ }
+
+img{
+	padding: 50px;
+	float: left;
+	width: 400px;
+	margin: auto;
+	display: block;
+	position: relative;
+	border-radius: 15px;
+	
+}
+
+
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	color:white;
+	display: block;
+	padding: 25px 50px;
+	text-decoration: none;
+}
+ul{
+	background-color:#444444; 
+}
+ul li a:hover{
+	background-color:#71A094; 
+} 
+.item-r{
+	float: right;
+}
+
+h2{
+	font-size: 30px;
+	padding: 15px;
+	text-align: center;
+	background-color: #444444;
+	font-family:"Kristen ITC";
+}
+#dos{
+	padding: 0px 70px;
+	font-size: 20px;
+	text-align: center;
+}
+nav li ul {
+ 	display: none;
+ 	position: absolute;
+ 	min-width: 240px;
+ }
+ nav li:hover > ul {
+ 	display: block;
+ }

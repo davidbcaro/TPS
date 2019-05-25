@@ -1,0 +1,137 @@
+*{
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-image: image(Imagenes/fondojpg);
+
+}
+/*Modelado de la Pagina Web*/
+section.contenedor{
+  background: #21212d;
+  height: 1050px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  background: none;
+  height: 120px;
+  width: 100%;
+}
+
+section.barra_navegacion{
+  background: #696969;
+  height: 50px;
+  width: 100%;
+}
+
+section.informacion{
+  background: #2d2d37 ;
+  height: 400px;
+  width: 100%;
+}
+
+section.informacion2{
+  background: #696980;
+  height: 400px;
+  width: 100%;
+}
+
+footer{
+  background: #444444;
+  height: 80px;
+  width: 100%;
+}
+
+/*Encabezado (Logo - Titulo - Acceder)*/
+header h1{
+  font-family: "Kristen ITC";
+  font-size: 42px;
+  color: #ff7f61;
+  position: relative;
+  text-align: center;
+  top: -65px;
+}
+
+header a.acceder{
+  color: #ff7f61;
+  position: relative;
+  top: -135px;
+  left: 1584px;
+  text-decoration: none;
+  font-family: "Kristen ITC";
+  font-style: italic;
+  font-size: 20px;
+}
+
+/*Barra de Navegacion*/
+nav ul.navegacion{
+  height: 50px;
+  width: 1582px;
+  display: inline-block;
+  width: auto;
+  background: #696969;
+}
+
+nav ul li{
+  border: 0px;
+  padding: 0px;
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li a{
+  display: block;
+  padding: 16px 111px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  background-color: #71A094;
+}
+
+/*Informacion*/
+
+section.informacion h1{
+  font-family: cursive;
+  font-style: normal;
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+  top: 100px;
+  margin-left: 55px;
+}
+
+section p.frase_1{
+  font-family: sans-serif;
+  font-style: oblique;
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  margin-left: 30px;
+  top: 140px;
+}
+
+section p.autor{
+  font-style: italic;
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+  margin-left: 760px;
+  top: 140px;
+}
+
+section img.imagen_redonda{
+  height: 280px;
+  width: 280px;
+  border-radius: 300px;
+  position: relative;
+  margin-left: 1180px;
+  top: -40px;
+
+}
